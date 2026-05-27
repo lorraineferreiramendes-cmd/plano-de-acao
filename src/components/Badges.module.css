@@ -1,0 +1,32 @@
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: var(--font-mono);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.alta    { background: var(--red-bg);    color: var(--red-text); }
+.media   { background: var(--amber-bg);  color: var(--amber-text); }
+.baixa   { background: var(--green-bg);  color: var(--green-text); }
+
+.pending  { background: #f1f5f9; color: #64748b; }
+.progress { background: var(--blue-bg);  color: var(--blue-text); }
+.done     { background: var(--green-bg); color: var(--green-text); }
+.late     { background: var(--red-bg);   color: var(--red-text); }
+
+.tierCapacidade { background: var(--blue-bg);   color: var(--blue-text); }
+.tierPeople     { background: var(--purple-bg);  color: var(--purple-text); }
+.tierCusto      { background: var(--teal-bg);    color: var(--teal-text); }
+.tierQualidade  { background: var(--amber-bg);   color: var(--amber-text); }
+.tierProcesso   { background: var(--orange-bg);  color: var(--orange-text); }
+.tierOutro      { background: #f1f5f9;           color: #64748b; }
+
+.effectBase { font-size: 12px; font-weight: 500; }
+.effectYes     { color: var(--green-text); }
+.effectPartial { color: var(--amber-text); }
+.effectNo      { color: var(--text-muted); }
+.muted         { color: var(--text-muted); font-size: 12px; }
